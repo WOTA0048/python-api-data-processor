@@ -12,7 +12,7 @@ def fetch_and_analyze_data():
             rates = data.get("rates", {})
             
             # Simple data filtering and calculation
-            target_currencies = ["JPY", "EUR", "GBP"]
+            target_currencies = ["JPY", "EUR", "IDR"]
             print("\n--- Live Currency Rates (Base: USD) ---")
             for crypto in target_currencies:
                 if crypto in rates:
